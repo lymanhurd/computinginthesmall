@@ -10,4 +10,4 @@ Goals for week 1:
 
 1. Learn about the Collatz ("3x + 1") function.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lymanhurd/computinginthesmall/HEAD?labpath=Week1.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lymanhurd/computinginthesmall/HEAD?labpath=week1/Week1.ipynb)

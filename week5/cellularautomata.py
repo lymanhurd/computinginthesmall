@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 from random import randint
 
 
@@ -39,3 +40,9 @@ def find_rule_number(f):
         s = str(v) + s
         print(f"({b1}, {b2}, {b3}) --> {f(b1, b2, b3)}")
     print(f"Rule: binary 0b{s} --> decimal {int(s, 2)}")
+
+
+def show_rule(title, rule, gen=25, random_init=False):
+    plt.title(title)
+    plt.imshow(ca_image(rule, gen=gen, random_init=random_init), interpolation="none")
+    plt.axis("off")
